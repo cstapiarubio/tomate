@@ -1,0 +1,141 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-family: "Raleway", sans-serif;
+}
+
+.navbar_img_logo {
+  width: 15%;
+  padding-left: 5%;
+  text-align: left !important;
+}
+
+.header {
+  background-color: #e56353;
+  color: #fff;
+  height: 50vh;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+.header_h1 {
+  font-weight: 200;
+  font-size: 70px;
+}
+.header_span {
+  font-weight: 700;
+  font-size: 70px;
+  display: block;
+  width: 100%;
+  padding-left: 20%;
+}
+
+.organic {
+  text-align: center;
+  background-color: #91918d;
+  color: #fff;
+}
+.organic_img {
+  object-fit: cover;
+  width: 80%;
+  height: auto;
+  padding-top: 5%;
+}
+.organic_h3 {
+  font-size: 50px;
+  font-weight: 700;
+  padding-top: 5%;
+}
+.organic_p {
+  font-size: 18px;
+  font-weight: 400;
+  padding-top: 3%;
+}
+.organic_p:last-child {
+  padding-bottom: 3%;
+}
+
+.history {
+  text-align: center;
+  color: #686963;
+}
+.history_img {
+  object-fit: cover;
+  width: 80%;
+  height: auto;
+  padding-top: 5%;
+}
+.history_h3 {
+  font-size: 50px;
+  font-weight: 700;
+  padding-top: 5%;
+}
+.history_p {
+  font-size: 18px;
+  font-weight: 400;
+  padding-top: 3%;
+}
+.history_p:last-child {
+  padding-bottom: 3%;
+}
+
+.about {
+  text-align: center;
+}
+.about_h1 {
+  background-color: #e56353;
+  height: 20vh;
+  font-size: xx-large;
+  font-weight: 700;
+  color: #fff;
+  padding-top: 10%;
+}
+.about_card {
+  padding-top: 5%;
+  color: #686963;
+}
+.about_card_img {
+  width: 30%;
+}
+.about_card_p {
+  font-size: 18px;
+  font-weight: 400;
+  padding-top: 2%;
+}
+.about_card_p:last-child {
+  padding-bottom: 2%;
+}
+.about_card_h3 {
+  font-weight: 700;
+  padding-top: 2%;
+}
+
+.buy {
+  padding-top: 3%;
+  background-color: #e56353;
+  height: 20vh;
+  color: #fff;
+  text-align: center;
+}
+.buy_h2 {
+  font-weight: 700;
+}
+.buy_button {
+  border-radius: 40px;
+  padding: 1%;
+  font-weight: 700;
+  margin-top: 2%;
+}
+
+.footer {
+  background-color: #686963;
+  text-align: center;
+}
+.footer_img {
+  width: 10%;
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+
+/*# sourceMappingURL=style.css.map */

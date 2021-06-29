@@ -1,0 +1,143 @@
+//nav
+.navbar{
+    &_img_logo{
+        width:15%;
+        padding-left: 5%;
+        text-align: left !important;
+    }
+}
+
+//header
+.header{
+    background-color: $jelly;
+    color: $white;
+    height: 50vh;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    &_h1{
+        font-weight: $extralight;
+        font-size: $x-large;
+    }
+    &_span{
+        font-weight: $bold;
+        font-size: $x-large;
+        display:block;
+        width:100%;
+        padding-left: 20%;
+    }
+}
+
+//section organic
+.organic{
+    text-align: center;
+    background-color: $taupe;
+    color:$white;
+    &_img{
+        object-fit: cover;
+        width:80%;
+        height: auto;
+        padding-top: 5%;
+    }
+    &_h3{
+        font-size: $large;
+        font-weight: $bold;
+        padding-top: 5%;
+    }
+    &_p{
+        font-size: $medium;
+        font-weight: $regular;
+        padding-top: 3%;
+       
+    }
+    &_p:last-child{
+        padding-bottom: 3%;
+    }
+}
+
+//history
+.history{
+    text-align:center;
+    color: $granite;
+    &_img{
+        object-fit: cover;
+        width:80%;
+        height: auto;
+        padding-top: 5%;
+    }
+    &_h3{
+        font-size: $large;
+        font-weight: $bold;
+        padding-top: 5%;
+    }
+    &_p{
+        font-size: $medium;
+        font-weight: $regular;
+        padding-top: 3%;
+       
+    }
+    &_p:last-child{
+        padding-bottom: 3%;
+    }
+}
+
+//About 
+.about{
+    text-align: center;
+    &_h1{
+        background-color: $jelly;
+        height: 20vh;
+        font-size: xx-large;
+        font-weight: $bold;
+        color: $white;
+        padding-top: 10%;
+    }
+    &_card{
+        padding-top: 5%;
+        color:$granite;
+    }
+    &_card_img{
+        width: 30%;
+    }
+    &_card_p{
+        font-size: $medium;
+        font-weight: $regular;
+        padding-top: 2%;
+    }
+    &_card_p:last-child{
+        padding-bottom: 2%;
+    }
+    &_card_h3{
+        font-weight: $bold;
+        padding-top:2%;
+    }
+}
+
+//buy
+.buy{
+    padding-top: 3%;
+    background-color: $jelly;
+    height: 20vh;
+    color:$white;
+    text-align: center;
+    &_h2{
+        font-weight: $bold;
+    }
+    &_button{
+        border-radius: 40px;
+        padding:1%;
+        font-weight: $bold;
+        margin-top: 2%;
+    }
+}
+
+//footer
+.footer{
+    background-color: $granite;
+    text-align: center;
+    &_img{
+        width:10%;
+        padding-top: 3%;
+        padding-bottom: 3%;
+    }
+}
